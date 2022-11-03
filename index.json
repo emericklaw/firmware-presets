@@ -139,6 +139,7 @@
       "4.4"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -428,6 +429,7 @@
       "SupaflyFPV",
       "switch",
       "SWPR",
+      "t-motor",
       "T3",
       "tank solo",
       "tank ultimate",
@@ -477,6 +479,23 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/Matt_T-motor_Tron_80.txt",
+      "hash": "7fdf344d44829475c2e69da62f61eec5dcd9c40cb4cc987277ef4f7a46844a74",
+      "title": "Matt - BNF - T-motor Tron 80",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "t-motor",
+        "tron 80"
+      ],
+      "author": "Matt Emerick-Law",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
