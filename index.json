@@ -834,7 +834,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/Matt_T-motor_Tron_80.txt",
-      "hash": "7f08c6290f87e7b76a2bdc90a801939c6b3987b0f9fd7f7db37e03dcd9e20cb2",
+      "hash": "a2f4a1fbd13496313461f2ad2a7eede389490aed94a18aa4dda5b8a9e0399ca7",
       "title": "Matt - LED - Tron 80",
       "firmware_version": [
         "4.3"
@@ -872,7 +872,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/Matt_Standard.txt",
-      "hash": "10fcc31fc8ab44a74598647d3cba13e5aa64a2bceaad4ab07b6e33695b477e67",
+      "hash": "3aecebb6594723157554cf5db970f159a72ab1607ce877475c1af87bb50da280",
       "title": "Matt - Standard Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
