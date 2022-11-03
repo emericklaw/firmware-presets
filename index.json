@@ -369,6 +369,7 @@
       "output limit",
       "partial",
       "Passthrough",
+      "personal",
       "pid",
       "PIDtoolbox",
       "pro32",
@@ -867,6 +868,27 @@
         "switch"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/modes/Matt_Standard.txt",
+      "hash": "10fcc31fc8ab44a74598647d3cba13e5aa64a2bceaad4ab07b6e33695b477e67",
+      "title": "Matt - Standard Modes and Adjustment settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "personal",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Matt Emerick-Law",
       "priority": 0
     },
     {
