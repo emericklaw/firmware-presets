@@ -1,4 +1,4 @@
-#$ TITLE: Matt - Standard DJI OSD settings
+#$ TITLE: Matt - Standard DJI OSD
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY

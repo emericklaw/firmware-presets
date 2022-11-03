@@ -872,8 +872,8 @@
     },
     {
       "fullPath": "presets/4.3/modes/Matt_Standard.txt",
-      "hash": "3aecebb6594723157554cf5db970f159a72ab1607ce877475c1af87bb50da280",
-      "title": "Matt - Standard Modes and Adjustment settings",
+      "hash": "f208dd93fe932a5cde8707c04828824854faf9ee1b299e7d687b8fca2ee33e2e",
+      "title": "Matt - Standard Modes and Adjustments",
       "firmware_version": [
         "4.3"
       ],
@@ -910,8 +910,8 @@
     },
     {
       "fullPath": "presets/4.3/osd/Matt_Standard_DJI.txt",
-      "hash": "5818e4e5fdf062d6812c8dd673aad76d3ff6b1b315af0e2fcdb0967be9e7a396",
-      "title": "Matt - Standard DJI OSD settings",
+      "hash": "7ccd3860ccefe265f78e692995248673373476e3f8ef8dec129fcf594e85af47",
+      "title": "Matt - Standard DJI OSD",
       "firmware_version": [
         "4.3"
       ],

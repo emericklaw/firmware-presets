@@ -1,4 +1,4 @@
-#$ TITLE: Matt - Standard Modes and Adjustment settings
+#$ TITLE: Matt - Standard Modes and Adjustments
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
