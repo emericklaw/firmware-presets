@@ -5,7 +5,6 @@
 #$ KEYWORDS: matt, leds, tron 80
 #$ AUTHOR: Matt Emerick-Law
 #$ DESCRIPTION: LED settings for T-motor Tron 80
-#$ DESCRIPTION: Options: LED, colour or mode_color resets.
 #$ INCLUDE: presets/4.3/leds/defaults.txt
 
 # led designations
