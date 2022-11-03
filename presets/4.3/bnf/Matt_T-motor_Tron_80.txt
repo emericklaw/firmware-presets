@@ -6,6 +6,17 @@
 #$ AUTHOR: Matt Emerick-Law
 #$ DESCRIPTION: Personal settings for T-motor Tron 80
 
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32F411 (S411) 4.3.1 Jul 13 2022 / 03:32:52 (8d4f005) MSP API: 1.44
+# config: manufacturer_id: TMTR, board_name: TMOTORF411, version: aa58e35c, date: 2022-10-28T00:01:29Z
+
+# start the command batch
+batch start
+
 # reset configuration to default settings
 defaults nosave
 
@@ -68,6 +79,9 @@ set gyro_lpf1_dyn_max_hz = 750
 set acc_calibration = 54,-59,44,1
 set mag_hardware = NONE
 set baro_hardware = NONE
+set rc_smoothing_auto_factor = 140
+set rc_smoothing_setpoint_cutoff = 25
+set rc_smoothing_feedforward_cutoff = 25
 set fpv_mix_degrees = 15
 set serialrx_provider = CRSF
 set dshot_bidir = ON
@@ -167,6 +181,9 @@ set f_yaw = 191
 set d_min_roll = 67
 set d_min_pitch = 76
 set thrust_linear = 20
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
 set dyn_idle_min_rpm = 35
 set simplified_master_multiplier = 160
 set simplified_d_gain = 140
@@ -244,3 +261,6 @@ rateprofile 5
 
 # restore original rateprofile selection
 rateprofile 0
+
+# save configuration
+save

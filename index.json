@@ -481,7 +481,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/Matt_T-motor_Tron_80.txt",
-      "hash": "9220178b5da674eda0ae193313c0484f0a642bf24877ef2af87ddf8a68b622a3",
+      "hash": "7e2309e46d438eee8a0d6d16051267f7ddd63e0494e252a9279a87ed1a71e18c",
       "title": "Matt - BNF - T-motor Tron 80",
       "firmware_version": [
         "4.3"
