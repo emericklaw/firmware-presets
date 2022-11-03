@@ -834,7 +834,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/Matt_T-motor_Tron_80.txt",
-      "hash": "a2f4a1fbd13496313461f2ad2a7eede389490aed94a18aa4dda5b8a9e0399ca7",
+      "hash": "2f45ea336079b944202c4bcc3f80ecf467a3dd4adde2353ddd6487056c88b2de",
       "title": "Matt - LED - Tron 80",
       "firmware_version": [
         "4.3"
@@ -906,6 +906,24 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/Matt_Standard_DJI.txt",
+      "hash": "5818e4e5fdf062d6812c8dd673aad76d3ff6b1b315af0e2fcdb0967be9e7a396",
+      "title": "Matt - Standard DJI OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "personal",
+        "OSD",
+        "DJI"
+      ],
+      "author": "Matt Emerick-Law",
       "priority": 0
     },
     {
@@ -3291,6 +3309,32 @@
         "karatebrot"
       ],
       "author": "sugarK",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Matt_DJI_FPV-WTF_MSP-OSD.txt",
+      "hash": "dcad426991734e3cc5295983b7052f84ff091afffdb36e7409e96f6137b73db8",
+      "title": "Matt - FPV.WTF MSP-OSD",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "personal",
+        "vtx",
+        "dji",
+        "vista",
+        "air unit",
+        "fpv.wtf",
+        "wtfos",
+        "msp-osd",
+        "displayport",
+        "msp"
+      ],
+      "author": "benlumley",
       "priority": 1000000
     },
     {
