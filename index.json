@@ -315,6 +315,7 @@
       "gyroflow",
       "gyros",
       "gyroscope",
+      "hammymodel",
       "HD",
       "HDzero",
       "Headsup",
@@ -347,6 +348,8 @@
       "meteor",
       "MinChan",
       "MM",
+      "mobula",
+      "mobula7",
       "mode",
       "modes",
       "Motor",
@@ -479,6 +482,24 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/Matt_Happymodel_Mobula7_HD_1S.txt",
+      "hash": "b33bcd8cac5d96b322de16ca9db2bbb688cf1cd20ab20b1a28b3635e21f4417f",
+      "title": "Matt - BNF - Happymodel Mobula7 HD 1S",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "hammymodel",
+        "mobula7",
+        "mobula"
+      ],
+      "author": "Matt Emerick-Law",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/bnf/Matt_T-motor_Tron_80.txt",
       "hash": "b32781e94f1d29d9e87c270ae798738cf1b2c569e5c5e6f183e8af0120796ae3",
