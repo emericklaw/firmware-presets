@@ -6,9 +6,8 @@
 #$ AUTHOR: Matt Emerick-Law
 #$ DESCRIPTION: Personal settings for T-motor Tron 80
 
-# 
+defaults nosave
 
-# diff all
 
 # version
 # Betaflight / STM32F411 (S411) 4.3.1 Jul 13 2022 / 03:32:52 (8d4f005) MSP API: 1.44
@@ -76,6 +75,8 @@ set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 1000
 set gyro_lpf1_dyn_min_hz = 375
 set gyro_lpf1_dyn_max_hz = 750
+set acc_trim_pitch = 1
+set acc_trim_roll = 1
 set acc_calibration = 54,-59,44,1
 set mag_hardware = NONE
 set baro_hardware = NONE
@@ -151,6 +152,7 @@ set osd_stat_battery = ON
 set osd_stat_max_alt = ON
 set osd_stat_flight_dist = ON
 set osd_stat_total_time = ON
+set osd_profile = 2
 set osd_profile_1_name = Main
 set osd_profile_2_name = Bare
 set osd_profile_3_name = Blank
@@ -178,6 +180,10 @@ set f_roll = 191
 set p_yaw = 71
 set i_yaw = 127
 set f_yaw = 191
+set angle_level_strength = 70
+set horizon_level_strength = 70
+set horizon_transition = 100
+set level_limit = 85
 set d_min_roll = 67
 set d_min_pitch = 76
 set thrust_linear = 20
@@ -240,13 +246,17 @@ rateprofile 1
 
 # rateprofile 1
 set rateprofile_name = UAVT
-set rates_type = QUICK
-set roll_rc_rate = 108
-set pitch_rc_rate = 106
-set yaw_rc_rate = 100
+set thr_mid = 45
+set thr_expo = 50
+set roll_rc_rate = 1
+set pitch_rc_rate = 1
+set yaw_rc_rate = 10
+set roll_expo = 55
+set pitch_expo = 55
+set yaw_expo = 25
 set roll_srate = 100
-set pitch_srate = 95
-set yaw_srate = 70
+set pitch_srate = 100
+set yaw_srate = 60
 
 rateprofile 2
 
@@ -263,4 +273,3 @@ rateprofile 5
 rateprofile 0
 
 # save configuration
-save
