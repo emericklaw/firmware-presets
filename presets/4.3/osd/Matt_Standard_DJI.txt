@@ -5,6 +5,7 @@
 #$ KEYWORDS: matt, personal, OSD, DJI
 #$ AUTHOR: Matt Emerick-Law
 #$ DESCRIPTION: Standard personal DJI OSD values
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 set osd_units = BRITISH
 set osd_rssi_alarm = 19
@@ -40,7 +41,7 @@ set osd_home_dist_pos = 2401
 set osd_flight_dist_pos = 152
 set osd_compass_bar_pos = 41
 set osd_altitude_pos = 321
-#$ OPTION BEGIN (CHECKED): Has GPS
+#$ OPTION BEGIN (UNCHECKED): Has GPS
 set osd_gps_speed_pos = 2306
 set osd_gps_lon_pos = 18849
 set osd_gps_lat_pos = 18881
