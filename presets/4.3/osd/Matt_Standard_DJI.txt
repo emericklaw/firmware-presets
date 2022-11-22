@@ -31,6 +31,15 @@ set osd_mah_drawn_pos = 6261
 set osd_motor_diag_pos = 320
 set osd_craft_name_pos = 394
 set osd_display_name_pos = 331
+set osd_gps_speed_pos = 258
+set osd_gps_lon_pos = 16801
+set osd_gps_lat_pos = 16833
+set osd_gps_sats_pos = 385
+set osd_home_dir_pos = 2446
+set osd_home_dist_pos = 2401
+set osd_flight_dist_pos = 152
+set osd_compass_bar_pos = 41
+set osd_altitude_pos = 321
 #$ OPTION BEGIN (CHECKED): Has GPS
 set osd_gps_speed_pos = 2306
 set osd_gps_lon_pos = 18849
@@ -41,17 +50,6 @@ set osd_home_dist_pos = 2401
 set osd_flight_dist_pos = 152
 set osd_compass_bar_pos = 41
 set osd_altitude_pos = 2369
-#$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): Has GPS
-set osd_gps_speed_pos = 258
-set osd_gps_lon_pos = 16801
-set osd_gps_lat_pos = 16833
-set osd_gps_sats_pos = 385
-set osd_home_dir_pos = 2446
-set osd_home_dist_pos = 2401
-set osd_flight_dist_pos = 152
-set osd_compass_bar_pos = 41
-set osd_altitude_pos = 321
 #$ OPTION END
 set osd_pidrate_profile_pos = 441
 set osd_warnings_pos = 2248
