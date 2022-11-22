@@ -413,6 +413,8 @@
       "SBUS fast",
       "settings",
       "shames",
+      "shendrones",
+      "slammed",
       "Smart",
       "smart audio",
       "smartaudio",
@@ -421,6 +423,7 @@
       "some",
       "Spec",
       "speedybee",
+      "squirt",
       "stats",
       "Street",
       "Street League",
@@ -496,6 +499,24 @@
         "hammymodel",
         "mobula7",
         "mobula"
+      ],
+      "author": "Matt Emerick-Law",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/bnf/Matt_Shendrones_Squirt_V2_Slammed.txt",
+      "hash": "f347b8275ed559798620867b06abc0fc28a0a4085ea81d14007ea6fe32a00688",
+      "title": "Matt - BNF - Shendrones Squirt V2 Slammed",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "shendrones",
+        "squirt",
+        "slammed"
       ],
       "author": "Matt Emerick-Law",
       "priority": 0
