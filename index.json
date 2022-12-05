@@ -3675,6 +3675,24 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/bnf/Matt_Shendrones_Squirt_V2_Slammed.txt",
+      "hash": "cfaa97cea6ef1fe9cb1a66e70650a26f30ed7b4352092ec655dab6edcc24563b",
+      "title": "Matt - BNF - Shendrones Squirt V2 Slammed",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "shendrones",
+        "squirt",
+        "slammed"
+      ],
+      "author": "Matt Emerick-Law",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/other/Street_League_motor_outputs.txt",
       "hash": "818ab0552ce3e055e2b3157551b5bc1eb31bd6c1a39ec54fb748f2cb378023e8",
       "title": "Street League Motor Output Limit Settings",
