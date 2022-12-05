@@ -1,0 +1,28 @@
+#$ TITLE: Matt - LED - Tron 80
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: LEDS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: matt, leds, tron 80
+#$ AUTHOR: Matt Emerick-Law
+#$ DESCRIPTION: LED settings for T-motor Tron 80
+#$ INCLUDE: presets/4.3/leds/defaults.txt
+
+# led designations
+
+led 0 10,9::CT:3
+led 1 10,6::CT:3
+led 2 5,9::CT:3
+led 3 5,6::CT:3
+
+set ledstrip_visual_beeper = ON
+set ledstrip_visual_beeper_color = WHITE
+set ledstrip_race_color = BLUE
+set ledstrip_beacon_color = WHITE
+
+# colour table
+
+color 3 251,0,255
+
+# mode_colors
+
+mode_color 7 0 11

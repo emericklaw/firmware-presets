@@ -160,7 +160,6 @@
       "ctzsnooze",
       "Daniel Appel / Tehllama",
       "Directory",
-      "DusKing1 (Hugo Chiang), Pitronic",
       "Evan Turner (Headsup)",
       "Feisar",
       "Foxeer Harvey",
@@ -249,7 +248,6 @@
       "basic",
       "betaflight",
       "blackbox",
-      "BMI270",
       "BMS",
       "BMSThomas",
       "brushless",
@@ -279,7 +277,6 @@
       "divimath",
       "DJI",
       "DShot telemetry",
-      "dual",
       "eachine",
       "ELRS",
       "emax",
@@ -311,10 +308,7 @@
       "GoPro",
       "GPS",
       "GTB339",
-      "gyro",
       "gyroflow",
-      "gyros",
-      "gyroscope",
       "hammymodel",
       "HD",
       "HDzero",
@@ -411,7 +405,6 @@
       "Safe",
       "sbus",
       "SBUS fast",
-      "settings",
       "shames",
       "shendrones",
       "slammed",
@@ -803,53 +796,6 @@
         "reset"
       ],
       "author": "Betaflight",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.3/filters/dusking_BMI270.txt",
-      "hash": "e9b096470c1b108b6f486be4eae926e7b19780d633cc21083aebe530617f2709",
-      "title": "DusKing's BMI270 filter settings",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "FILTERS",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "BMI270",
-        "filter",
-        "filters",
-        "gyroscope",
-        "gyro",
-        "gyros",
-        "settings",
-        "RPM"
-      ],
-      "author": "DusKing1 (Hugo Chiang), Pitronic",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.3/filters/dusking_BMI270_dual.txt",
-      "hash": "49e7baac0835c3223925999ca1402a4abcf783b426cbb06ac6b9fede696b6e81",
-      "title": "DusKing's dual BMI270 filter settings",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "FILTERS",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "BMI270",
-        "filter",
-        "filters",
-        "dual",
-        "gyroscope",
-        "gyro",
-        "gyros",
-        "settings",
-        "RPM"
-      ],
-      "author": "DusKing1 (Hugo Chiang), Pitronic",
       "priority": 100
     },
     {
@@ -3693,6 +3639,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/leds/Matt_T-motor_Tron_80.txt",
+      "hash": "6dcc46c059ad2b5325c62cba249ac2086a7ff37ffabd7345e904d182d2dfee46",
+      "title": "Matt - LED - Tron 80",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "leds",
+        "tron 80"
+      ],
+      "author": "Matt Emerick-Law",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/other/Street_League_motor_outputs.txt",
       "hash": "818ab0552ce3e055e2b3157551b5bc1eb31bd6c1a39ec54fb748f2cb378023e8",
       "title": "Street League Motor Output Limit Settings",
@@ -3717,7 +3680,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Tehllama_5in_Race_Multivoltage.txt",
-      "hash": "ffcab5e1c9b7e1688927b53870eab57cb84ab4661101eb6add55bba32dc27c17",
+      "hash": "69196f1b328ee290fb8293affa6dd96677d14512e1782112c4cb5af98f43e855",
       "title": "Tehllama 5\" Race Multivoltage",
       "firmware_version": [
         "4.4"
@@ -3747,7 +3710,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Tehllama_5in_Race_Spec_Multi.txt",
-      "hash": "d5cc5afc6ccd98a78702a495625de063667c8229957a15f218a426976871a169",
+      "hash": "4209d81e0d0e9e2c0a23b5a6def01eb6d4447f036ca7d3e781f5abe8e26ee8bf",
       "title": "Tehllama 5\" Race Spec ONLY Multivoltage",
       "firmware_version": [
         "4.4"
@@ -3980,6 +3943,30 @@
         "tinyTrainer"
       ],
       "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/minchan_2022_race.txt",
+      "hash": "de8aa3e2543980a85b356f689874ed8a990c8a807b530441e5dd935125453354",
+      "title": "MinChan 2022 Race 6s 5\"",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "6S",
+        "race",
+        "world champion",
+        "5 inch",
+        "5\"",
+        "mck",
+        "minchan",
+        "kim",
+        "2022",
+        "multigp"
+      ],
+      "author": "MinChan Kim",
       "priority": 1000000000000
     },
     {
