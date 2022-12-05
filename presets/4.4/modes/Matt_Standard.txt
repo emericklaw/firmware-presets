@@ -1,0 +1,27 @@
+#$ TITLE: Matt - Standard Modes and Adjustments
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: matt, personal, mode, modes, adjustments, aux, switch
+#$ AUTHOR: Matt Emerick-Law
+#$ DESCRIPTION: Standard personal modes and adjustment ranges
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+# aux switch settings
+
+aux 0 0 0 1900 2100 0 0
+aux 1 1 2 900 1100 0 0
+aux 2 2 2 1150 1350 0 0
+aux 3 13 4 1900 2100 0 0
+aux 4 15 6 900 1100 0 0
+aux 5 28 2 1900 2100 0 0
+aux 6 35 1 1900 2100 0 0
+aux 7 36 1 1400 2100 0 0
+aux 8 47 2 1650 1850 0 0
+aux 9 52 4 1400 1600 0 0
+
+# adjustment ranges
+
+adjrange 0 0 3 900 2100 12 3 0 0
+adjrange 1 0 5 900 2100 29 5 0 0
+adjrange 2 0 6 900 2100 30 6 0 0
