@@ -1,0 +1,72 @@
+#$ TITLE: Matt - Standard DJI OSD
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: matt, personal, OSD, DJI
+#$ AUTHOR: Matt Emerick-Law
+#$ DESCRIPTION: Standard personal DJI OSD values for HD with WTFOS msp-osd
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+set osd_units = BRITISH
+set osd_rssi_alarm = 19
+set osd_cap_alarm = 1000
+set osd_alt_alarm = 400
+set osd_tim2 = 1281
+set osd_vbat_pos = 6206
+set osd_rssi_pos = 2210
+set osd_link_quality_pos = 2178
+set osd_rssi_dbm_pos = 2218
+set osd_rsnr_pos = 2214
+set osd_tim_1_pos = 6831
+set osd_tim_2_pos = 6824
+set osd_remaining_time_estimate_pos = 2139
+set osd_flymode_pos = 2274
+set osd_anti_gravity_pos = 2280
+set osd_g_force_pos = 3414
+set osd_throttle_pos = 2338
+set osd_vtx_channel_pos = 16503
+set osd_crosshairs_pos = 348
+set osd_ah_sbar_pos = 2461
+set osd_ah_pos = 2333
+set osd_current_pos = 3155
+set osd_mah_drawn_pos = 7221
+set osd_wh_drawn_pos = 3188
+set osd_motor_diag_pos = 320
+set osd_craft_name_pos = 394
+set osd_gps_speed_pos = 2434
+set osd_gps_lon_pos = 19010
+set osd_gps_lat_pos = 19042
+set osd_gps_sats_pos = 2594
+set osd_home_dir_pos = 2525
+set osd_home_dist_pos = 2498
+set osd_flight_dist_pos = 152
+set osd_compass_bar_pos = 41
+set osd_altitude_pos = 2466
+set osd_power_pos = 1237
+set osd_pidrate_profile_pos = 441
+set osd_warnings_pos = 2296
+set osd_avg_cell_voltage_pos = 6199
+set osd_battery_usage_pos = 2071
+set osd_disarmed_pos = 35002
+set osd_up_down_reference_pos = 64
+set osd_ready_mode_pos = 2267
+set osd_nvario_pos = 75
+set osd_esc_tmp_pos = 32
+set osd_esc_rpm_pos = 267
+set osd_rtc_date_time_pos = 320
+set osd_adjustment_range_pos = 395
+set osd_flip_arrow_pos = 2205
+set osd_core_temp_pos = 2082
+set osd_log_status_pos = 322
+set osd_stick_overlay_left_pos = 331
+set osd_stick_overlay_right_pos = 323
+set osd_rate_profile_name_pos = 2749
+set osd_pid_profile_name_pos = 2742
+set osd_profile_name_pos = 7844
+set osd_camera_frame_pos = 216
+set osd_efficiency_pos = 3221
+set osd_stat_bitmask = 65421308
+set osd_profile_1_name = Main
+set osd_profile_2_name = Bare
+set osd_profile_3_name = Blank
+set osd_displayport_device = MSP
