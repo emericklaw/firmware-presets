@@ -4397,6 +4397,31 @@
       ],
       "author": "sugarK",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/vtx/Matt_DJI_FPV-WTF_MSP-OSD.txt",
+      "hash": "5d583682a87bc6aee4926a9835f56a780a0dc074d628adf98d54ffb89ba52d45",
+      "title": "Matt - FPV.WTF MSP-OSD",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "personal",
+        "vtx",
+        "dji",
+        "vista",
+        "air unit",
+        "fpv.wtf",
+        "wtfos",
+        "msp-osd",
+        "displayport",
+        "msp"
+      ],
+      "author": "benlumley",
+      "priority": 1000000
     }
   ]
 }
