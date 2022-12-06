@@ -5,6 +5,7 @@
 #$ KEYWORDS: matt, personal, OSD, DJI
 #$ AUTHOR: Matt Emerick-Law
 #$ DESCRIPTION: Standard personal DJI OSD values for HD with WTFOS msp-osd
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 set osd_units = BRITISH
 set osd_rssi_alarm = 19
@@ -32,6 +33,7 @@ set osd_mah_drawn_pos = 7221
 set osd_wh_drawn_pos = 3188
 set osd_motor_diag_pos = 320
 set osd_craft_name_pos = 394
+#$ OPTION BEGIN (UNCHECKED): Has GPS
 set osd_gps_speed_pos = 2434
 set osd_gps_lon_pos = 19010
 set osd_gps_lat_pos = 19042
@@ -41,6 +43,7 @@ set osd_home_dist_pos = 2498
 set osd_flight_dist_pos = 152
 set osd_compass_bar_pos = 41
 set osd_altitude_pos = 2466
+#$ OPTION END
 set osd_power_pos = 1237
 set osd_pidrate_profile_pos = 441
 set osd_warnings_pos = 2296
