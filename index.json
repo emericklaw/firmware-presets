@@ -3622,7 +3622,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/Matt_Shendrones_Squirt_V2_Slammed.txt",
-      "hash": "cfaa97cea6ef1fe9cb1a66e70650a26f30ed7b4352092ec655dab6edcc24563b",
+      "hash": "6ea368c102272256fd883cb35457c37c916f78deb80389bedf40a3837d7095e4",
       "title": "Matt - BNF - Shendrones Squirt V2 Slammed",
       "firmware_version": [
         "4.4"
@@ -3678,7 +3678,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/Matt_Standard_DJI.txt",
-      "hash": "13280d2878eed7f26bc081e3605ee505c086449b70deb65a0436e0a03572ac2e",
+      "hash": "c73e2ecdd9724cce4fce559145c3e21fce24049198f7d7ca3c489beb9b8558ab",
       "title": "Matt - Standard DJI OSD",
       "firmware_version": [
         "4.4"
