@@ -17,6 +17,7 @@
 #$ DESCRIPTION: The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.
 
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/298
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 set osd_displayport_device = MSP
 set vcd_video_system = HD

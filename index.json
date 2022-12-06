@@ -3678,7 +3678,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/Matt_Standard_DJI.txt",
-      "hash": "05c26f0e4d5dba17f26fa9e5f87f48e59b95295582d640cf53ea28d20feaa417",
+      "hash": "13280d2878eed7f26bc081e3605ee505c086449b70deb65a0436e0a03572ac2e",
       "title": "Matt - Standard DJI OSD",
       "firmware_version": [
         "4.4"
@@ -3692,7 +3692,6 @@
         "DJI"
       ],
       "author": "Matt Emerick-Law",
-      "force_options_review": true,
       "priority": 0
     },
     {
@@ -4400,7 +4399,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/Matt_DJI_FPV-WTF_MSP-OSD.txt",
-      "hash": "5d583682a87bc6aee4926a9835f56a780a0dc074d628adf98d54ffb89ba52d45",
+      "hash": "bac86fac508b17816bdd2f710ba10b9cfc565c256aeaa1f663bc1609095a6f5e",
       "title": "Matt - FPV.WTF MSP-OSD",
       "firmware_version": [
         "4.4"
@@ -4421,6 +4420,7 @@
         "msp"
       ],
       "author": "benlumley",
+      "force_options_review": true,
       "priority": 1000000
     }
   ]

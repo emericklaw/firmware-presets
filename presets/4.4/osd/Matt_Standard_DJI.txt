@@ -5,7 +5,6 @@
 #$ KEYWORDS: matt, personal, OSD, DJI
 #$ AUTHOR: Matt Emerick-Law
 #$ DESCRIPTION: Standard personal DJI OSD values for HD with WTFOS msp-osd
-#$ FORCE_OPTIONS_REVIEW: TRUE
 
 set osd_units = BRITISH
 set osd_rssi_alarm = 19
