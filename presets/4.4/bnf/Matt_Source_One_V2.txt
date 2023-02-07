@@ -1,10 +1,10 @@
-#$ TITLE: Matt - BNF - Shendrones Squirt V2 Slammed
+#$ TITLE: Matt - BNF - Source One V2
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: matt, shendrones, squirt, slammed
+#$ KEYWORDS: matt, source one
 #$ AUTHOR: Matt Emerick-Law
-#$ DESCRIPTION: Personal settings for Shendrones Squirt V2 Slammed
+#$ DESCRIPTION: Personal settings for Source One V2
 
 defaults nosave
 
@@ -22,10 +22,10 @@ defaults nosave
 
 board_name SKYSTARSF7HDPRO
 manufacturer_id SKST
-mcu_id 000900245632500220323236
+mcu_id 000c00255746501720303431
 signature 
 
-# name: Squirt
+# name: Source One
 
 # feature
 feature -AIRMODE
@@ -35,36 +35,44 @@ feature ESC_SENSOR
 
 # serial
 serial 0 0 115200 57600 0 115200
-serial 1 2 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
 serial 2 1024 115200 57600 0 115200
-serial 4 64 115200 57600 0 115200
+serial 3 2 115200 57600 0 115200
 serial 5 131073 115200 57600 0 115200
 
 # led
-led 0 5,5::CTW:2
-led 1 4,4::CT:2
-led 2 3,3::CT:2
-led 3 2,2::CT:2
-led 4 1,1::CT:2
-led 5 0,0::CTI:2
-led 6 0,15::CTI:2
-led 7 1,14::CT:2
-led 8 2,13::CT:2
-led 9 3,12::CT:2
-led 10 4,11::CT:2
-led 11 5,10::CTW:2
-led 12 10,10::CTW:2
-led 13 11,11::CT:2
-led 14 12,12::CT:2
-led 15 13,13::CT:2
-led 16 14,14::CT:2
-led 17 15,15::CTI:2
-led 18 15,0::CTI:2
-led 19 14,1::CT:2
-led 20 13,2::CT:2
-led 21 12,3::CT:2
-led 22 11,4::CT:2
-led 23 10,5::CTW:2
+led 0 8,7::CTW:2
+led 1 9,6::CT:2
+led 2 10,5::CT:2
+led 3 11,4::CT:2
+led 4 12,3::CT:2
+led 5 13,2::CT:2
+led 6 14,1::CT:2
+led 7 15,0::CTI:2
+led 8 8,8::CTW:2
+led 9 9,9::CT:2
+led 10 10,10::CT:2
+led 11 11,11::CT:2
+led 12 12,12::CT:2
+led 13 13,13::CT:2
+led 14 14,14::CT:2
+led 15 15,15::CTI:2
+led 16 7,8::CTW:2
+led 17 6,9::CT:2
+led 18 5,10::CT:2
+led 19 4,11::CT:2
+led 20 3,12::CT:2
+led 21 2,13::CT:2
+led 22 1,14::CT:2
+led 23 0,15::CTI:2
+led 24 7,7::CTW:2
+led 25 6,6::CT:2
+led 26 5,5::CT:2
+led 27 4,4::CT:2
+led 28 3,3::CT:2
+led 29 2,2::CT:2
+led 30 1,1::CT:2
+led 31 0,0::CTI:2
 
 # color
 color 1 0,0,255
@@ -92,30 +100,15 @@ adjrange 1 0 5 900 2100 29 5 0 0
 adjrange 2 0 6 900 2100 30 6 0 0
 
 # master
-set gyro_lpf1_static_hz = 375
-set gyro_lpf2_static_hz = 750
 set dyn_notch_count = 1
 set dyn_notch_q = 500
-set dyn_notch_max_hz = 1000
-set gyro_lpf1_dyn_min_hz = 375
-set gyro_lpf1_dyn_max_hz = 750
-set acc_calibration = 24,-2,7,1
-set rc_smoothing_auto_factor = 140
-set rc_smoothing_setpoint_cutoff = 25
-set rc_smoothing_feedforward_cutoff = 25
+set acc_calibration = 12,16,40,1
 set fpv_mix_degrees = 15
-set blackbox_sample_rate = 1/2
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
-set failsafe_procedure = GPS-RESCUE
-set vbat_max_cell_voltage = 420
-set beeper_dshot_beacon_tone = 5
+set yaw_motors_reversed = ON
 set gps_sbas_mode = AUTO
 set gps_ublox_use_galileo = ON
-set gps_rescue_allow_arming_without_fix = ON
-set simplified_gyro_filter_multiplier = 150
-set ledstrip_visual_beeper = ON
-set ledstrip_race_color = BLUE
 set osd_units = BRITISH
 set osd_rssi_alarm = 19
 set osd_cap_alarm = 1000
@@ -126,19 +119,19 @@ set osd_rssi_pos = 2210
 set osd_link_quality_pos = 2178
 set osd_rssi_dbm_pos = 2218
 set osd_rsnr_pos = 2214
-set osd_tim_1_pos = 6767
-set osd_tim_2_pos = 6760
+set osd_tim_1_pos = 6831
+set osd_tim_2_pos = 6824
 set osd_remaining_time_estimate_pos = 2139
 set osd_flymode_pos = 2274
 set osd_anti_gravity_pos = 2280
-set osd_g_force_pos = 3412
+set osd_g_force_pos = 3414
 set osd_throttle_pos = 2338
 set osd_vtx_channel_pos = 16503
 set osd_crosshairs_pos = 348
 set osd_ah_sbar_pos = 2461
 set osd_ah_pos = 2333
 set osd_current_pos = 3155
-set osd_mah_drawn_pos = 7220
+set osd_mah_drawn_pos = 7221
 set osd_wh_drawn_pos = 3188
 set osd_motor_diag_pos = 320
 set osd_craft_name_pos = 394
@@ -151,7 +144,7 @@ set osd_home_dist_pos = 2498
 set osd_flight_dist_pos = 152
 set osd_compass_bar_pos = 41
 set osd_altitude_pos = 2466
-set osd_power_pos = 1236
+set osd_power_pos = 1237
 set osd_pidrate_profile_pos = 441
 set osd_warnings_pos = 2296
 set osd_avg_cell_voltage_pos = 6199
@@ -168,11 +161,11 @@ set osd_core_temp_pos = 2082
 set osd_log_status_pos = 322
 set osd_stick_overlay_left_pos = 331
 set osd_stick_overlay_right_pos = 323
-set osd_rate_profile_name_pos = 2685
-set osd_pid_profile_name_pos = 2678
-set osd_profile_name_pos = 7780
+set osd_rate_profile_name_pos = 2749
+set osd_pid_profile_name_pos = 2742
+set osd_profile_name_pos = 7844
 set osd_camera_frame_pos = 216
-set osd_efficiency_pos = 3220
+set osd_efficiency_pos = 3221
 set osd_stat_bitmask = 65421308
 set osd_profile_1_name = Main
 set osd_profile_2_name = Bare
@@ -182,96 +175,24 @@ set osd_canvas_width = 60
 set osd_canvas_height = 22
 set debug_mode = GYRO_SCALED
 set vcd_video_system = HD
-set craft_name = Squirt
+set craft_name = Source One
 
 profile 0
 
-# profile 0
-set profile_name = UAVT
-set iterm_relax_cutoff = 10
-set p_pitch = 75
-set i_pitch = 134
-set d_pitch = 76
-set f_pitch = 199
-set p_roll = 71
-set i_roll = 127
-set d_roll = 67
-set f_roll = 191
-set p_yaw = 71
-set i_yaw = 127
-set f_yaw = 191
-set d_min_roll = 67
-set d_min_pitch = 76
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 45
-set feedforward_jitter_factor = 10
-set simplified_master_multiplier = 160
-set simplified_d_gain = 140
-set simplified_dmax_gain = 0
-
 profile 1
 
-# profile 1
-set profile_name = MARC
-set dterm_lpf1_dyn_min_hz = 71
-set dterm_lpf1_dyn_max_hz = 142
-set dterm_lpf1_static_hz = 71
-set dterm_lpf2_static_hz = 142
-set i_pitch = 25
-set d_pitch = 34
-set f_pitch = 87
-set i_roll = 23
-set d_roll = 30
-set f_roll = 84
-set i_yaw = 23
-set f_yaw = 84
-set dyn_idle_min_rpm = 33
-set simplified_i_gain = 30
-set simplified_dmax_gain = 0
-set simplified_feedforward_gain = 70
-set simplified_dterm_filter_multiplier = 95
-
 profile 2
-
-# profile 2
-set profile_name = STD
 
 profile 3
 
 # restore original profile selection
-profile 1
+profile 0
 
 rateprofile 0
 
-# rateprofile 0
-set rateprofile_name = VAN
-set rates_type = BETAFLIGHT
-set roll_rc_rate = 100
-set pitch_rc_rate = 100
-set yaw_rc_rate = 100
-set roll_expo = 1
-set pitch_expo = 1
-set yaw_expo = 1
-set roll_srate = 59
-set pitch_srate = 59
-set yaw_srate = 59
-
 rateprofile 1
 
-# rateprofile 1
-set rateprofile_name = UAVT
-set rates_type = QUICK
-set roll_rc_rate = 108
-set pitch_rc_rate = 106
-set yaw_rc_rate = 100
-set roll_srate = 100
-set pitch_srate = 95
-set yaw_srate = 70
-
 rateprofile 2
-
-# rateprofile 2
-set rateprofile_name = STD
 
 rateprofile 3
 

@@ -310,6 +310,7 @@
       "GTB339",
       "gyroflow",
       "hammymodel",
+      "happymodel",
       "HD",
       "HDzero",
       "Headsup",
@@ -414,6 +415,7 @@
       "smoothing",
       "Solid250",
       "some",
+      "source one",
       "Spec",
       "speedybee",
       "squirt",
@@ -3621,8 +3623,25 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/bnf/Matt_Happymodel_Mobula_HD_1S.txt",
+      "hash": "2708638917633bb1ae17083bfb73282663d23fed074963108936997707806249",
+      "title": "Matt - BNF - Happymodel Mobula7 HD 1S",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "happymodel",
+        "mobula7"
+      ],
+      "author": "Matt Emerick-Law",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/bnf/Matt_Shendrones_Squirt_V2_Slammed.txt",
-      "hash": "6ea368c102272256fd883cb35457c37c916f78deb80389bedf40a3837d7095e4",
+      "hash": "4f9731f01b44d8547dc77b2651d729ff6129df7a408a1930d2cf2b8b786b9fef",
       "title": "Matt - BNF - Shendrones Squirt V2 Slammed",
       "firmware_version": [
         "4.4"
@@ -3639,8 +3658,24 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/bnf/Matt_Source_One_V2.txt",
+      "hash": "126c897a305967633bfee0607ea7a2d5b60c0fe97ea3cf40dba9380bb4d19ce5",
+      "title": "Matt - BNF - Source One V2",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "matt",
+        "source one"
+      ],
+      "author": "Matt Emerick-Law",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/bnf/Matt_T-motor_Tron_80.txt",
-      "hash": "a7498387a9a201f243bdc164d9e0b393363ab156821755bcaf4bd828c0f60c8a",
+      "hash": "e3f81331f6acb3806593b4fd7110f57be0f937035a63c636f908f8f5265b1a93",
       "title": "Matt - BNF - T-motor Tron 80",
       "firmware_version": [
         "4.4"
